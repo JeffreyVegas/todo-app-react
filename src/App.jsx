@@ -9,7 +9,7 @@ function App() {
   const [openModal, setOpenModal] = useState(false);
   const { searchedTodos, addTodp } = useContext(AppContex);
   return (
-    <div className="relative">
+    <div className="relative font-ubuntu">
       {openModal && <FormModal open={openModal} setOpen={setOpenModal} />}
       <div className="xl:container mx-auto relative">
         <div className=" flex justify-between sm:justify-around p-4 sm:p-8 items-center">
